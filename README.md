@@ -1,6 +1,6 @@
 ## March 2019 Speedrun
 
-[![Build Status](https://travis-ci.org/lacyjpr/landing.svg?branch=master)](https://travis-ci.org/lacyjpr/landing)
+[![Build Status](https://travis-ci.org/lacyjpr/landing.svg?branch=master)](https://travis-ci.org/lacyjpr/landing)[![Greenkeeper badge](https://badges.greenkeeper.io/lacyjpr/landing.svg)](https://greenkeeper.io/)
 
 First project in a month long speedrun March 10 - April 10, 2019
 
@@ -18,8 +18,6 @@ First project in a month long speedrun March 10 - April 10, 2019
 - [ ] Clone [this theme](https://webthemez.com/demo/startup-multi-purpose-responsive-html5-bootstrap-template/), include all features (hover effects, animations, pages, etc)
 
 ## React Docs
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/lacyjpr/landing.svg)](https://greenkeeper.io/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
