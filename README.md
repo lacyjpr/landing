@@ -1,3 +1,9 @@
+## March 2019 Speedrun
+
+[![Build Status](https://travis-ci.org/lacyjpr/landing.svg?branch=master)](https://travis-ci.org/lacyjpr/landing)
+
+First project in a month long speedrun March 10 - April 10, 2019
+
 - [ ] Clone [this theme](https://blackrockdigital.github.io/startbootstrap-landing-page/), include all features (hover effects, animations, pages, etc)
 - [ ] Clone [this theme](https://blackrockdigital.github.io/startbootstrap-agency/), include all features (hover effects, animations, pages, etc)
 - [ ] Clone [this theme](https://blackrockdigital.github.io/startbootstrap-resume/), include all features (hover effects, animations, pages, etc)
