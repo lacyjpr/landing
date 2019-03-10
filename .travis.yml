@@ -15,8 +15,8 @@ deploy:
     script: now --token $NOW_TOKEN --public
     skip_cleanup: true
     on:
-      all_branches: true
-      master: false
+      master: true
+      #master: false
 #  - provider: script
 #    script: now --token $NOW_TOKEN --public && now alias --token $NOW_TOKEN --public
 #    skip_cleanup: true
