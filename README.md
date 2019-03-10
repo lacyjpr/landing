@@ -13,6 +13,8 @@
 
 ## React Docs
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lacyjpr/landing.svg)](https://greenkeeper.io/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
