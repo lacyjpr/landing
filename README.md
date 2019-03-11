@@ -1,8 +1,8 @@
 ## March 2019 Speedrun
 
-[![Build Status](https://travis-ci.com/lacyjpr/landing.svg?branch=master)](https://travis-ci.com/lacyjpr/landing)[![Greenkeeper badge](https://badges.greenkeeper.io/lacyjpr/landing.svg)](https://greenkeeper.io/)
+March 10 - April 10, 2019
 
-First project in a month long speedrun March 10 - April 10, 2019
+[![Build Status](https://travis-ci.com/lacyjpr/landing.svg?branch=master)](https://travis-ci.com/lacyjpr/landing)[![Greenkeeper badge](https://badges.greenkeeper.io/lacyjpr/landing.svg)](https://greenkeeper.io/)
 
 - [ ] Clone [this theme](https://blackrockdigital.github.io/startbootstrap-landing-page/), include all features (hover effects, animations, pages, etc)
 - [ ] Clone [this theme](https://blackrockdigital.github.io/startbootstrap-agency/), include all features (hover effects, animations, pages, etc)
