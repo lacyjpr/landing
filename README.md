@@ -17,7 +17,7 @@ March 10 - April 10, 2019
 - [ ] Clone [this theme](https://webthemez.com/demo/fine-best-app-landing-page-free-web-template/), include all features (hover effects, animations, pages, etc)
 - [ ] Clone [this theme](https://webthemez.com/demo/startup-multi-purpose-responsive-html5-bootstrap-template/), include all features (hover effects, animations, pages, etc)
 
-## React Docs I Promise to Read One Dayƒ
+## React Docs I Promise to Read One Day
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
