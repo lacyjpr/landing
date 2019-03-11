@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/lacyjpr/landing.svg?branch=master)](https://travis-ci.org/lacyjpr/landing)[![Greenkeeper badge](https://badges.greenkeeper.io/lacyjpr/landing.svg)](https://greenkeeper.io/)
 
-First project in a month long speedrun March 10 - April 10, 2019
+March 10 - April 10, 2019
 
 - [ ] Clone [this theme](https://blackrockdigital.github.io/startbootstrap-landing-page/), include all features (hover effects, animations, pages, etc)
 - [ ] Clone [this theme](https://blackrockdigital.github.io/startbootstrap-agency/), include all features (hover effects, animations, pages, etc)
@@ -17,7 +17,7 @@ First project in a month long speedrun March 10 - April 10, 2019
 - [ ] Clone [this theme](https://webthemez.com/demo/fine-best-app-landing-page-free-web-template/), include all features (hover effects, animations, pages, etc)
 - [ ] Clone [this theme](https://webthemez.com/demo/startup-multi-purpose-responsive-html5-bootstrap-template/), include all features (hover effects, animations, pages, etc)
 
-## React Docs
+## React Docs I Promise to Read One Dayƒ
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
