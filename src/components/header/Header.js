@@ -7,7 +7,9 @@ const Header = () => {
   return (
     <nav className='nav'>
       <div className='nav__title'>Start Bootstrap</div>
-      <Button variant='primary'>Sign In</Button>
+      <Button variant='primary' className='nav__button'>
+        Sign In
+      </Button>
     </nav>
   );
 };
