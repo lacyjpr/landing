@@ -15,8 +15,9 @@ const Home = () => {
       <Form className='home__form'>
         <div className='home__form-email'>
           <Form.Control
+            size='lg'
             type='email'
-            className='form-control form-control-lg'
+            className='home__form-email-input'
             placeholder='Enter your email...'
           />
         </div>
