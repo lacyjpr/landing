@@ -17,4 +17,17 @@
     font-size: 1.5em;
     font-weight: bold;
   }
+
+  &__form {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    width: 40%;
+  }
+
+  &__form-button-primary {
+    border-radius: 6px;
+  }
 }
