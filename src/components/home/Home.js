@@ -18,7 +18,7 @@ const Home = () => {
             size='lg'
             type='email'
             className='home__form-email-input'
-            placeholder='Enter your email...'
+            placeholder='Your email...'
           />
         </div>
 
