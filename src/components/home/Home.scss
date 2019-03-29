@@ -6,12 +6,12 @@
 
   &__image {
     width: 100%;
-    height: 660px;
+    height: 100vh;
   }
 
   &__text {
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2em;
@@ -20,7 +20,7 @@
 
   &__form {
     position: absolute;
-    top: 65%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.5em;
@@ -38,18 +38,18 @@
 
 @media (min-width: 576px) {
   .home__form {
-    top: 55%;
+    top: 75%;
   }
 }
 
 @media (min-width: 768px) {
   .home__form {
-    top: 50%;
+    top: 75%;
   }
 }
 
 @media (min-width: 992px) {
   .home__form {
-    top: 48%;
+    top: 65%;
   }
 }
