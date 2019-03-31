@@ -10,9 +10,9 @@ const Features = () => {
   return (
     <div>
       <h1>Features Component</h1>
-      <FontAwesomeIcon icon={faDesktop} />
-      <FontAwesomeIcon icon={faLayerGroup} />
-      <FontAwesomeIcon icon={faCheckCircle} />
+      <FontAwesomeIcon icon={faDesktop} size='7x' />
+      <FontAwesomeIcon icon={faLayerGroup} size='7x' />
+      <FontAwesomeIcon icon={faCheckCircle} size='7x' />
     </div>
   );
 };
