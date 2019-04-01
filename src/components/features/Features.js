@@ -1,18 +1,21 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faDesktop,
-  faLayerGroup,
-  faCheckCircle,
-} from '@fortawesome/free-solid-svg-icons';
+import { faDesktop, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
+import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 
 const Features = () => {
   return (
-    <div>
+    <div className='Features'>
       <h1>Features Component</h1>
-      <FontAwesomeIcon icon={faDesktop} size='7x' />
-      <FontAwesomeIcon icon={faLayerGroup} size='7x' />
-      <FontAwesomeIcon icon={faCheckCircle} size='7x' />
+      <div className='Features__feature'>
+        <FontAwesomeIcon icon={faDesktop} size='7x' />
+      </div>
+      <div className='Features__feature'>
+        <FontAwesomeIcon icon={faLayerGroup} size='7x' />
+      </div>
+      <div className='Features__feature'>
+        <FontAwesomeIcon icon={faCheckCircle} size='7x' />
+      </div>
     </div>
   );
 };
