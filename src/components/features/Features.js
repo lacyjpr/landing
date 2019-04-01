@@ -8,13 +8,13 @@ const Features = () => {
   return (
     <div className='Features'>
       <div className='Features__feature'>
-        <FontAwesomeIcon icon={faDesktop} size='7x' />
+        <FontAwesomeIcon icon={faDesktop} size='7x' color='dodgerblue' />
       </div>
       <div className='Features__feature'>
-        <FontAwesomeIcon icon={faLayerGroup} size='7x' />
+        <FontAwesomeIcon icon={faLayerGroup} size='7x' color='dodgerblue' />
       </div>
       <div className='Features__feature'>
-        <FontAwesomeIcon icon={faCheckCircle} size='7x' />
+        <FontAwesomeIcon icon={faCheckCircle} size='7x' color='dodgerblue' />
       </div>
     </div>
   );
