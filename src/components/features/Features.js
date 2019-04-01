@@ -9,7 +9,7 @@ const Features = () => {
     <div className='Features'>
       <div className='Features__feature'>
         <FontAwesomeIcon icon={faDesktop} size='7x' color='dodgerblue' />
-        <h3>Lorem ipsum dolor</h3>
+        <h3>It's Responsive</h3>
         <p>
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
           officia deserunt mollit anim id est laborum.
@@ -17,7 +17,7 @@ const Features = () => {
       </div>
       <div className='Features__feature'>
         <FontAwesomeIcon icon={faLayerGroup} size='7x' color='dodgerblue' />
-        <h3>Lorem ipsum dolor</h3>
+        <h3>It's built with Bootstrap</h3>
         <p>
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
           officia deserunt mollit anim id est laborum.
@@ -25,7 +25,7 @@ const Features = () => {
       </div>
       <div className='Features__feature'>
         <FontAwesomeIcon icon={faCheckCircle} size='7x' color='dodgerblue' />
-        <h3>Lorem ipsum dolor</h3>
+        <h3>It looks great!</h3>
         <p>
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
           officia deserunt mollit anim id est laborum.
