@@ -1,4 +1,5 @@
 import React from 'react';
+import './Features.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDesktop, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
 import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
