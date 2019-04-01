@@ -7,7 +7,6 @@ import { faCheckCircle } from '@fortawesome/free-regular-svg-icons';
 const Features = () => {
   return (
     <div className='Features'>
-      <h1>Features Component</h1>
       <div className='Features__feature'>
         <FontAwesomeIcon icon={faDesktop} size='7x' />
       </div>

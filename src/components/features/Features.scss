@@ -3,3 +3,11 @@
   grid-row: 3/3;
   text-align: center;
 }
+
+@media (min-width: 992px) {
+  .Features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
