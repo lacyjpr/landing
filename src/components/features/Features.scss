@@ -1,0 +1,18 @@
+.Features {
+  grid-column: 1/13;
+  grid-row: 3/3;
+  text-align: center;
+
+  &__feature {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .Features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
