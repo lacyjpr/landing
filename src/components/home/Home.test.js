@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import App from './App';
+import Home from './Home';
 
-describe('<App />', () => {
+describe('<Home />', () => {
   it('renders without crashing', () => {
-    shallow(<App />);
+    shallow(<Home />);
   });
 });

@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import App from './App';
+import Features from './Features';
 
-describe('<App />', () => {
+describe('<Features />', () => {
   it('renders without crashing', () => {
-    shallow(<App />);
+    shallow(<Features />);
   });
 });
