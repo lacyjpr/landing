@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { shallow } from 'enzyme';
+
 import Features from './Features';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Features />, div);
-  ReactDOM.unmountComponentAtNode(div);
+describe('<Features />', () => {
+  it('renders without crashing', () => {
+    shallow(<Features />);
+  });
 });
