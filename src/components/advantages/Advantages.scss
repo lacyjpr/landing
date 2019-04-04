@@ -1,4 +1,8 @@
 .Advantages {
+  grid-column: 1/13;
+  grid-row: 4/4;
+  text-align: center;
+
   &__firstImage {
     background-image: url(../../assets/cellphone.jpg);
     background-size: cover;
