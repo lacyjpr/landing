@@ -4,6 +4,7 @@ import './styles/styles.scss';
 import Header from './components/header';
 import Home from './components/home';
 import Features from './components/features';
+import Advantages from './components/advantages';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Header />
         <Home />
         <Features />
+        <Advantages />
       </div>
     );
   }
