@@ -2,10 +2,84 @@
   grid-column: 1/13;
   grid-row: 4/5;
   text-align: center;
+  background-color: white;
 
-  &__firstImage {
-    background-image: url(../../assets/cellphone.jpg);
-    background-size: cover;
-    min-height: 30rem;
+  &__image {
+    &-one {
+      background-size: cover;
+      min-height: 30rem;
+      background-image: url(../../assets/cellphone.jpg);
+    }
+
+    &-two {
+      background-size: cover;
+      min-height: 30rem;
+      background-image: url(../../assets/code.jpg);
+    }
+
+    &-three {
+      background-size: cover;
+      min-height: 30rem;
+      background-image: url(../../assets/legos.jpg);
+    }
+  }
+
+  &__text {
+    &-one {
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+    }
+
+    &-two {
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+    }
+
+    &-three {
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .Advantages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, minmax(50px, auto));
+
+    &__image {
+      &-one {
+        grid-column: 2/3;
+        grid-row: 1/2;
+      }
+
+      &-two {
+        grid-column: 1/2;
+        grid-row: 2/3;
+      }
+
+      &-three {
+        grid-column: 2/3;
+        grid-row: 3/4;
+      }
+    }
+
+    &__text {
+      &-one {
+        margin: auto;
+        max-width: 50%;
+      }
+
+      &-two {
+        margin: auto;
+        max-width: 50%;
+      }
+
+      &-three {
+        margin: auto;
+        max-width: 50%;
+      }
+    }
   }
 }
