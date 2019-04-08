@@ -5,15 +5,13 @@
 
   &__testimonial {
     margin-top: 10vh;
-    margin-right: 10vw;
-    margin-left: 10vw;
   }
 
   &__imageWrapper {
     display: inline-block;
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 7px 7px 0 #adb5bd;
@@ -23,14 +21,16 @@
   &__image {
     width: auto;
     height: 100%;
-    margin-left: -75px;
+    margin-left: -50px;
   }
 }
 
 @media (min-width: 992px) {
   .Testimonials {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    &__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
   }
 }
