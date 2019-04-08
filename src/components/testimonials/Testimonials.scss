@@ -2,6 +2,28 @@
   grid-column: 1/13;
   grid-row: 5 / 6;
   margin-top: 10vh;
+
+  &__testimonial {
+    margin-top: 10vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+
+  &__imageWrapper {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px 0 #adb5bd;
+  }
+
+  &__image {
+    width: auto;
+    height: 100%;
+    margin-left: -75px;
+  }
 }
 
 @media (min-width: 992px) {
