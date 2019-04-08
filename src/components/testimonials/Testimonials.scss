@@ -1,0 +1,13 @@
+.Testimonials {
+  grid-column: 1/13;
+  grid-row: 5 / 6;
+  margin-top: 10vh;
+}
+
+@media (min-width: 992px) {
+  .Testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
