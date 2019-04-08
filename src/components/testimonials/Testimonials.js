@@ -16,6 +16,8 @@ const Testimonials = () => {
             src={onePortrait}
           />
         </div>
+        <h5>Mary M.</h5>
+        <p>"This saves me so much time!"</p>
       </div>
 
       <div className='Testimonials__testimonial'>
@@ -26,6 +28,8 @@ const Testimonials = () => {
             src={twoPortrait}
           />
         </div>
+        <h5>Charlie C.</h5>
+        <p>"This is so useful!"</p>
       </div>
 
       <div className='Testimonials__testimonial'>
@@ -36,6 +40,8 @@ const Testimonials = () => {
             src={threePortrait}
           />
         </div>
+        <h5>Elaine E.</h5>
+        <p>"My landing page looks fantastic!"</p>
       </div>
     </div>
   );
