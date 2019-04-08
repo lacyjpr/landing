@@ -7,7 +7,7 @@ import threePortrait from '../../assets/three-portrait.jpg';
 const Testimonials = () => {
   return (
     <div className='Testimonials'>
-      <h3>What our customers are saying...</h3>
+      <h3>What users are saying...</h3>
       <div className='Testimonials__wrapper'>
         <div className='Testimonials__testimonial'>
           <div className='Testimonials__imageWrapper'>
@@ -18,7 +18,7 @@ const Testimonials = () => {
             />
           </div>
           <h5>Mary M.</h5>
-          <p>"This saves me so much time!"</p>
+          <p>"I love working with this!"</p>
         </div>
 
         <div className='Testimonials__testimonial'>
@@ -30,7 +30,7 @@ const Testimonials = () => {
             />
           </div>
           <h5>Charlie C.</h5>
-          <p>"This is so useful!"</p>
+          <p>"This is so useful & fun to use!"</p>
         </div>
 
         <div className='Testimonials__testimonial'>
