@@ -1,6 +1,27 @@
 import React from 'react';
 import './Advantages.scss';
 
+const advantages = [
+  {
+    key: 1,
+    image: "'Advantages__image-one'",
+    text: "'Advantages__text-one'",
+    heading: 'Responsive Architecture',
+  },
+  {
+    key: 2,
+    image: "'Advantages__image-two'",
+    text: "'Advantages__text-two'",
+    heading: 'New and Improved',
+  },
+  {
+    key: 1,
+    image: "'Advantages__image-three'",
+    text: "'Advantages__text-three'",
+    heading: 'Responsive Architecture',
+  },
+];
+
 const Advantages = () => {
   return (
     <div className='Advantages'>
