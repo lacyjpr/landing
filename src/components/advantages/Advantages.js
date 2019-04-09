@@ -27,7 +27,7 @@ const Advantages = () => {
     <div className='Advantages'>
       {advantages.map(advantage => (
         <React.Fragment key={advantage.key}>
-          <div className={advantage.image} key={advantage.key} />
+          <div className={advantage.image} />
           <div className={advantage.text}>
             <h2>{advantage.heading}</h2>
             <p>
