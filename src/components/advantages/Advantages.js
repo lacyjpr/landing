@@ -18,7 +18,7 @@ const advantages = [
     key: 3,
     image: 'Advantages__image-three',
     text: 'Advantages__text-three',
-    heading: 'Responsive Architecture',
+    heading: 'User Friendly',
   },
 ];
 
