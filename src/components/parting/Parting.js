@@ -6,35 +6,31 @@ import Button from 'react-bootstrap/Button';
 
 const Parting = () => {
   return (
-    <h1>Parting Component</h1>
-    // <div className='home'>
-    //   <img className='home__image' alt='Blue Water' src={blueWater} />
-    //   <h1 className='home__text'>
-    //     Build a landing page for your business or project and generate more
-    //     leads!
-    //   </h1>
-    //   <Form className='home__form'>
-    //     <div className='home__form-email'>
-    //       <Form.Control
-    //         size='lg'
-    //         type='email'
-    //         className='home__form-email-input'
-    //         placeholder='Your email...'
-    //       />
-    //     </div>
+    <div className='Parting'>
+      <img className='Parting__image' alt='Blue Water' src={blueWater} />
+      <h1 className='Parting__text'>Ready to get started? Sign up now!</h1>
+      <Form className='Parting__form'>
+        <div className='Parting__form-email'>
+          <Form.Control
+            size='lg'
+            type='email'
+            className='Parting__form-email-input'
+            placeholder='Your email...'
+          />
+        </div>
 
-    //     <div className='home__form-button'>
-    //       <Button
-    //         variant='primary'
-    //         className='home__form-button-primary'
-    //         type='submit'
-    //         block
-    //       >
-    //         Sign up!
-    //       </Button>
-    //     </div>
-    //   </Form>
-    // </div>
+        <div className='Parting__form-button'>
+          <Button
+            variant='primary'
+            className='Parting__form-button-primary'
+            type='submit'
+            block
+          >
+            Sign up!
+          </Button>
+        </div>
+      </Form>
+    </div>
   );
 };
 
