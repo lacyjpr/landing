@@ -7,6 +7,7 @@ import Features from './components/features';
 import Advantages from './components/advantages';
 import Testimonials from './components/testimonials';
 import Parting from './components/parting';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <Advantages />
         <Testimonials />
         <Parting />
+        <Footer />
       </div>
     );
   }
