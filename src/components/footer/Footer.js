@@ -1,4 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faFacebook,
+  faTwitterSquare,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
 import './Footer.scss';
 
 const Footer = () => {
@@ -15,7 +21,23 @@ const Footer = () => {
           <li className='Footer__left-item'>Privacy Policy</li>
         </ul>
       </div>
-      <div className='Footer__right' />
+      <div className='Footer__right'>
+        <ul className='Footer__right-list'>
+          <li className='Footer__right-item'>
+            <FontAwesomeIcon icon={faFacebook} size='2x' color='dodgerblue' />
+          </li>
+          <li className='Footer__right-item'>
+            <FontAwesomeIcon
+              icon={faTwitterSquare}
+              size='2x'
+              color='dodgerblue'
+            />
+          </li>
+          <li className='Footer__right-item'>
+            <FontAwesomeIcon icon={faInstagram} size='2x' color='dodgerblue' />
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
