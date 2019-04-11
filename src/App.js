@@ -6,6 +6,7 @@ import Home from './components/home';
 import Features from './components/features';
 import Advantages from './components/advantages';
 import Testimonials from './components/testimonials';
+import Parting from './components/parting';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Features />
         <Advantages />
         <Testimonials />
+        <Parting />
       </div>
     );
   }
